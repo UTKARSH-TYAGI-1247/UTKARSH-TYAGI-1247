@@ -1,0 +1,15 @@
+.fcontainer{
+    display: flex;
+    /*flex is used to arrange in rowwise manner*/
+}
+
+.fitem{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+    border: 12px solid yellow;
+    font-size: 20px;
+    text-align: center;
+}
