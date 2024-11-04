@@ -12,5 +12,6 @@ async function restaurant() {
     console.log(pizza);
     const burger= await orderfood("Burger", 2000);
     console.log(burger);
+    console.log("All Order Completed");
 }
 restaurant();
