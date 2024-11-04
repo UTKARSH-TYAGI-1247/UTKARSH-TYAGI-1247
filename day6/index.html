@@ -14,18 +14,12 @@
     <a href="https://abes.ac.in/">abes</a>-->
     <!--
     <button onclick="addcontent()">Click Here</button>
-
+-->
     <p id="res">hey</p>
-    <button>Click here</button>-->
-    <input type="text" name="" id="txt" placeholder="input..">
-    <p id="res"></p>
+    <button>Click here</button>
     <script>
-      const handlekeypress=(event)=>{
-        document.getElementById('res').innerHTML=event.target.value;
-      }
-
-      let myinput=document.getElementById('txt');
-      myinput.addEventListener('keydown',handlekeypress);
+        const button = document.querySelector('button');
+        button.addEventListener('click',() => { document.getElementById ('res').innerHTML = "Updated"});
     </script>
 </body>
 </html>
