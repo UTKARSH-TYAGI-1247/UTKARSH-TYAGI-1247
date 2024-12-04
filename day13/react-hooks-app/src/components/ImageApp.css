@@ -1,0 +1,20 @@
+.disp{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    text-align: center;
+}
+button{
+margin: 10px;
+padding: 10px 20px;
+}

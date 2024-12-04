@@ -1,23 +1,20 @@
-.disp{
+.disp{width: 50%;
+    margin: 200px auto;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
     padding: 10px;
-    border: 3px solid black;
+    border: 3px groove black;
 }
-
 .header{
-    height: 100px;
-    width: 40px;
-    font-size: 30px;
-    color: blueviolet;
-    background-color: cadetblue;
-    text-align: center;
+  width: 100%;
+  height: 40px;
+  font-size: 30px;
+  color: black;
+  text-align: center;
 }
-
 .btn{
-    background-color: chartreuse;
+    background-color:aquamarine;
     color: black;
-    padding: 10px, 20px;
+    padding: 10px 20px;
     margin: 10px;
 }
