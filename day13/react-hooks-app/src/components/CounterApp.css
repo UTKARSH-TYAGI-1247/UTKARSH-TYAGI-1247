@@ -1,0 +1,23 @@
+.disp{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.header{
+    height: 100px;
+    width: 40px;
+    font-size: 30px;
+    color: blueviolet;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.btn{
+    background-color: chartreuse;
+    color: black;
+    padding: 10px, 20px;
+    margin: 10px;
+}
